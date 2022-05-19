@@ -935,7 +935,7 @@ buildingpotion=Potion de construction
 miningpotion=Potion pour miner
 thornspotion=Potion d'épines
 strengthpotion=Potion de force
-rangerpotion=Potion de distance de tir
+rangerpotion=Potion de tir à distance
 wisdompotion=Potion de sagesse
 minionpotion=Potion minion
 knockbackpotion=Potion de choc
@@ -1068,8 +1068,8 @@ glacialcircletset=Les attaques d'invocation ralentissent la cible
 ancientfossilset=Appuyez sur [input=setability] pour gagner 100% de chances de coup critique pendant 5 secondes
 
 // Trinkets
-trinketslot=Endroit pour les gadgets
-trinketabilityslot=Endroit pour les compétences en matière de gadget
+trinketslot=Emplacement pour les gadgets
+trinketabilityslot=Emplacement pour les compétences en matière de gadget
 useabilityslot=Utiliser d'abord l'emplacement pour les compétences en matière de gadget
 trinketdisabled=§hDésactivé par <items>
 demonclawtip=Donne une résistance au choc
@@ -1230,7 +1230,7 @@ fishingpot2=Ajoute des lignes de pêche supplémentaires
 invispot=Donne l'invisibilité
 resistpot=Augmente l'armure de 8%
 speedpot=Augmente la vitesse de déplacement
-spelunkerpot=Éclairer les minerais
+spelunkerpot=Révéle les minerais
 treasurepot=Révéle les trésors
 passivepot=Réduit le nombre d'apparition de monstres hostiles
 buildingpot=Augmente la vitesse de pose des tuiles et des objets
@@ -2311,7 +2311,7 @@ huntingtip=Chasser des créatures pour se nourrir
 unknown=Inconnu
 idle=Caché
 onbreak=Faire une pause
-hunting=Chasse <cible>
+hunting=Chasse <target>
 pickingup=Reprendre <article> de <target>
 theground=le sol
 droppingoff=Déposer <item> à <target>
