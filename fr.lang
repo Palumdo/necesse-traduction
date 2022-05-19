@@ -1,21 +1,24 @@
+// French translations
+// Every language must have lang.localname and lang.engname to be loaded.
+// File must be saved with UTF-8 encoding.
 
-// <text> sera remplacé par un autre texte ou une autre valeur.
-// "§" suivant un chiffre, une lettre ou un #hexcode signifie que le texte suivant sera formaté.
-// "\n" signifie aller à la ligne suivante.
-// [item/input=...] sera remplacé par une icône de l'élément/de la touche de contrôle.
+// <text> will be replaced with some other text or value.
+// "§" following a number, letter or #hexcode means the following text will be formatted.
+// "\n" means go to next line.
+// [item/input=...] will be replaced by an icon of the item/control key.
 
-// À chaque mise à jour du jeu, tous les fichiers de langue inclus seront mis à jour avec les traductions manquantes.
-// Cela signifie que vous pouvez rechercher MISSING_TRANSLATION pour les trouver et les ajouter.
-// Si une traduction est identique à l'anglais, assurez-vous d'ajouter "SAME_TRANSLATION :" avant la clé de traduction,
-// de la même manière qu'avant une traduction manquante.
-// Il est également possible de forcer cette mise à jour en cliquant sur la langue dans le jeu tout en maintenant la touche shift enfoncée.
+// With every game update, all included language files will be updated with missing translations.
+// This means you can search for MISSING_TRANSLATION to find and add them.
+// If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
+// similar to how it is before missing translation.
+// It is also possible to force this update by clicking the language in-game while holding down shift.
 [lang]
 localname=Français
 engname=French
 credits=By Doum
 
-// Symboles supplémentaires qui seront chargés dans la police lors de l'utilisation de cette langue.
-// Le texte ci-dessous est un exemple de l'alphabet français.
+// Extra symbols that will be loaded in the font when using this language
+// Below is the french alphabet
 extrasymbols=AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzàâéèÉêîÎôûç'"
 
 [tile]
@@ -711,14 +714,14 @@ luckycape=Capuche chanceuse
 piratetelescope=Télescope de pirate
 regenpendant=Pendentif de régénération
 mobilitycloak=Cape de mobilité
-travelercloak=Cape de voyageur
-explorercloak=Cape d'explorateur
+travelercloak=Cape du voyageur
+explorercloak=Cape de l'explorateur
 mesmertablet=Tablette Mesmer
 inducingamulet=Amulette d'induction
 lifeline=Ligne de vie
 frozensoul=Ame gelée
 magicfoci=Focalisation magiques
-rangefoci=Focalisation "ranger"
+rangefoci=Focalisation distance
 meleefoci=Focalisation mêlée
 summonfoci=Focalisation invocation
 balancedfoci=Focalisation d'équilibrage
@@ -932,7 +935,7 @@ buildingpotion=Potion de construction
 miningpotion=Potion pour miner
 thornspotion=Potion d'épines
 strengthpotion=Potion de force
-rangerpotion=Potion de ranger
+rangerpotion=Potion de distance de tir
 wisdompotion=Potion de sagesse
 minionpotion=Potion minion
 knockbackpotion=Potion de choc
@@ -1228,7 +1231,7 @@ invispot=Donne l'invisibilité
 resistpot=Augmente l'armure de 8%
 speedpot=Augmente la vitesse de déplacement
 spelunkerpot=Éclairer les minerais
-treasurepot=Réveille les trésors
+treasurepot=Révéle les trésors
 passivepot=Réduit le nombre d'apparition de monstres hostiles
 buildingpot=Augmente la vitesse de pose des tuiles et des objets
 miningpot=Augmente la vitesse d'exploitation minière
@@ -1401,7 +1404,7 @@ voidammotip=Se concentre sur les ennemis proches.
 // Quests
 questitem=objet de quête
 zombiearmobtain=Déposé par les zombies
-goblinringobtain=Déposé chez les gobelins
+goblinringobtain=Déposé par les gobelins
 spiderlegobtain=Déposé par les araignées noires dans les grottes de neige
 frozenbeardobtain=Déposé par les nains gelés dans les grottes de neige.
 babyswordfishobtain=Pris dans l'eau des grottes de neige
@@ -1733,7 +1736,7 @@ voidapprentice=Apprentie du néant
 mummy=Momnie
 mummymage=Mage momie
 sandspirit=Esprit des sables
-MISSING_TRANSLATION:jackal=Jackal
+jackal=Chacal
 skeleton=Squelette
 skeletonthrower=Lanceur de squelette
 deepcavespirit=Esprit des cavernes profondes
@@ -1750,7 +1753,7 @@ ancientskeletonmage=Mage squelette ancien
 humanraider=Attaquant
 
 // Pets/spawned
-spawnedname=<mob>du <player>
+spawnedname=<mob> du <player>
 tameostrich=Autruche apprivoisée
 petpenguin=Pingouin
 petparrot=Perroquet
@@ -1850,7 +1853,7 @@ akeepertalk7=Certains animaux sont peut-être chers, mais ils en valent la peine
 
 blacksmithtalk1=Mon marteau peut servir à autre chose qu'à forger !
 blacksmithtalk2=Utiliser le bon outil pour le travail est important !
-blacksmithtalk3=Votre épée a besoin d'être affûtée ?
+blacksmithtalk3=Votre épée a-t-elle besoin d'être affûtée ?
 blacksmithtalk4=Jetez un coup d'oeil à mes marchandises !
 blacksmithspecial=Ne vends pas tes lingots à <gunsmith> ! Il les utilise mal !
 
@@ -2285,7 +2288,7 @@ connectquests=Chargement des quêtes
 connectmap=Chargement de la carte <percent>%.
 [jobs]
 settlerincapable=Le colon est incapable de faire ce travail
-jobrange=Plage de travail : <range> carreaux
+jobrange=Etendue de travail : <range> carreaux
 incpriority=Augmentation de la priorité
 decpriority=Diminuer la priorité
 haulingname=Chemin de halage
@@ -2446,8 +2449,8 @@ hungerdisabled=Faim désactivé
 hungerenabled=Faim activé
 mobsdisabled=Création de bosses désactivée
 mobsenabled=Foyers de monstres activés
-forcepvpon=JvJ forcé activé
-forcepvpoff=Forcé JvJ off (JvJ désactivé)
+forcepvpon=JcJ forcé activé
+forcepvpoff=Forcé JcJ off (JcJ désactivé)
 difficulty=Difficulté
 difficultytip=<difficulty> Difficulté
 diffcasual=Occasionnel
@@ -2627,7 +2630,7 @@ statuslookingtoplay=Recherche pour jouer
 statuslookingtotrade=Recherche pour commercer
 
 // Player
-pvplabel=JvJ
+pvplabel=JcJ
 teamcreate=Créer une nouvelle équipe
 teamcreateleave=Quittez votre équipe actuelle avant d'en créer une autre
 teamcreated=La nouvelle équipe est créée <name>
@@ -2646,7 +2649,7 @@ teaminvites=Invitation
 diedlabel=Vous êtes mort
 settlement=Colonie
 settlementsurface=Seulement en surface
-pvpandteams=JvJ et équipes
+pvpandteams=JcJ et équipes
 quests=Quêtes
 noquests=Vous n'avez pas de quêtes actives
 tracknewquests=Suivre les nouvelles quêtes
@@ -2805,7 +2808,7 @@ sensorlabel=Capteur
 sensorplayers=Joueurs
 sensorhostile=Monstres hostiles
 sensorpassive=Monstres passifs
-sensorrange=Gamme
+sensorrange=Etendue
 rsactivate=Activer
 rsreset=Remise à zero
 counterinc=Augmentation
