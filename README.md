@@ -1,3 +1,3 @@
 # necesse-traduction
 
- v0.21.21
+ v0.21.22
