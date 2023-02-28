@@ -426,8 +426,8 @@ sensorplayeron=Détection des joueurs
 sensorplayeroff=Non détection des joueurs
 sensorhostileon=Détection des hostiles
 sensorhostileoff=Non-détection des hostiles
-sensorpassiveon=Détecter les passives
-sensorpassiveoff=Ne pas détecter les passives
+sensorpassiveon=Détecter les passifs
+sensorpassiveoff=Ne pas détecter les passifs
 rsactivate=Activer : <value>
 rsreset=Remise à zéro : <value>
 tflipflopout1=Retourné
@@ -1076,14 +1076,14 @@ anyfruit=Tous les fruits
 headslot=Emplacement pour la tête
 chestslot=Emplacement pour la poitrine
 feetslot=Emplacement pour les pieds
-cosmeticheadslot=Emplacement pour tête cosmétique
-cosmeticchestslot=Emplacement pour poitrine cosmétique
+cosmeticheadslot=Emplacement cosmétique pour tête
+cosmeticchestslot=Emplacement cosmétique pour poitrine
 cosmeticfeetslot=Emplacement cosmétique pour les pieds
 cosmetic=Article cosmétique
 cosmeticslot=Pas de stats dans l'emplacement cosmétique
 armorvalue=+<value> armure
 setbonus=Définir le bonus :
-ninjaset1=Tu es un foutu de ninja !
+ninjaset1=Tu es un fichu ninja !
 ninjaset2=Enlève la réduction de la vitesse\nde déplacement lors d'une attaque
 ivyhoodset=Attaque la cible empoisonnée pour\n15 points de dégâts pendant 5 secondes
 ivyhelmetset=Être frappé par une goutte de poison
@@ -1103,9 +1103,9 @@ glacialcircletset=Les attaques d'invocation ralentissent la cible
 ancientfossilset=Appuyez sur [input=setability] pour gagner 100% de chances de coup critique pendant 5 secondes
 
 // Trinkets
-trinketslot=Endroit pour les gadgets
-trinketabilityslot=Endroit pour les compétences en matière de gadget
-useabilityslot=Utiliser d'abord l'emplacement pour les compétences en matière de gadget
+trinketslot=Emplacement pour gadgets
+trinketabilityslot=Emplacement pour les compétences de gadget
+useabilityslot=Utiliser d'abord l'emplacement pour les compétences de gadget
 trinketdisabled=§hDésactivé par <items>
 demonclawtip=Donne une résistance au choc
 polarclawtip=Attaque ralentit la cible
@@ -1163,9 +1163,9 @@ frenzyorbtip=Gagnez jusqu'à +40% de dégâts en fonction de la santé manquante
 templependanttip=Réduit de 25% le temps de recharge du sprint
 
 // Tools
-tooldmg=Dommages aux outils : <value>
+tooldmg=Dommages d'outil : <value>
 tooltier=Niveau de l'outil : <value>
-tooladdrange=<value> portée de l'outil
+tooladdrange=Portée de l'outil : <value>
 pickaxetip=Outil pioche
 shoveltip=Outil pelle
 axetip=Outil hache
@@ -1223,7 +1223,7 @@ reaperscalltip1=Envoie des esprits défenseurs
 reaperscalltip2=Maximum 5 à la fois
 iciclestafftip=Lance des glaçons rapides
 boxingglovetip=Ne fait pas beaucoup de mal, mais produit un gros choc
-zephyrbootstip=Equipez-vous et maintenez [input=trinketability] pour sprinter
+zephyrbootstip=Équipez-vous et maintenez [input=trinketability] pour sprinter
 staminausertip=Consomme de l'endurance lorsqu'il est utilisé
 fowtipequipped=Appuyez sur [input=trinketability] pour vous pousser en avant
 fowtipnotequipped=Équipez-vous et appuyez sur [input=trinketability] pour vous pousser en avant.
